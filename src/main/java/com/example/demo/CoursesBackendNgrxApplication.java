@@ -23,6 +23,7 @@ public class CoursesBackendNgrxApplication  implements CommandLineRunner{
 		courseBusiness.createCourse(new Course("Angular 11 - The complete Guide", "Master Angular and build awesome, reactive web apps"));
 		courseBusiness.createCourse(new Course("Spring Boot", "Learn Spring Boot - Rapid spring Application Development"));
 		courseBusiness.createCourse(new Course("React - The complete Guide", "Dive in and learn React.js from scratch!"));
+		courseBusiness.createCourse(new Course("Docker - The complete Guide", "Dive in Containers from scratch!"));
 	}
 
 }
