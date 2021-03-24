@@ -8,7 +8,7 @@ pipeline{
       }
     stage('build docker') {
       steps {
-        sh 'docker build -t kaskinas/courses-backend-ngrx:1.0.0'
+        sh 'docker build -t kaskinas/courses-backend-ngrx:1.0.0 .'
     }
     }
 
