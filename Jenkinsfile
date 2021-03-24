@@ -8,8 +8,8 @@ pipeline{
       }
     stage('build docker') {
       steps {
-        sh 'docker build -t kaskinas/courses-backend-ngrx:$env.BUILD_ID .'
-        sh 'docker push kaskinas/courses-backend-ngrx:$env.BUILD_ID'
+        sh 'docker build -t kaskinas/courses-backend-ngrx:${BUILD_NUMBER} .'
+        sh 'docker push kaskinas/courses-backend-ngrx:${BUILD_NUMBER}'
     }
     }
 
